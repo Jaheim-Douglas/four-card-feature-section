@@ -1,0 +1,94 @@
+body {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+}
+
+#top-section {
+    padding: 10px;
+    text-align: center;
+}
+
+#top-section p {
+    color: hsl(229, 6%, 66%);
+}
+
+#top-section h1 {
+    color: hsl(234, 12%, 34%);
+}
+
+#box-container {
+    margin-top: 50px;
+}
+
+.h1-text {
+    font-weight: 200;
+}
+
+
+.project-boxes {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 45px -16px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: white;
+}
+
+.icon-pics {
+    width: 55px;
+    position: relative;
+    left: 80%;
+}
+
+.project-boxes h2 {
+    color: hsl(234, 12%, 34%);
+}
+
+.project-boxes p {
+    color: hsl(229, 6%, 66%);
+}
+
+#supervisor-box {
+    border-top: hsl(180, 62%, 55%) 5px solid;
+}
+
+#team-box {
+    border-top: hsl(0, 78%, 62%) 5px solid;
+}
+
+#karma-box {
+    border-top: hsl(34, 97%, 64%) 5px solid;
+}
+
+#claculator-box {
+    border-top: hsl(212, 86%, 64%) 5px solid;
+}
+
+
+@media(min-width: 1200px) {
+    #box-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 30px;
+    }
+
+    #middle-box {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    #claculator-box {
+        position: relative;
+        top: 25%;
+    }
+
+    #supervisor-box {
+        position: relative;
+        top: 25%;
+    }
+}
